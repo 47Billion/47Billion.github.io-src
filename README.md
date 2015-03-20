@@ -8,3 +8,6 @@
 > STEP 4- To run the app while development do: grunt serve  <br>
 This will run the server on 9000 port and will automatically open the home page on your default browser.  <br>
 To run the project with concatenated and minified files repeat: STEP-3 and then : grunt serve:dist  <br>
+
+
+NOTE: For production the content of the dist folder should be used.
