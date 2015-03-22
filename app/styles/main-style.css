@@ -231,9 +231,9 @@ width: 100%;
 }*/
 
 .page-about.ng-enter 		{
-    -webkit-animation:slideInUp 0.8s both ease-in;
-    -moz-animation:slideInUp 0.8s both ease-in;
-    animation:slideInUp 0.8s both ease-in;
+    -webkit-animation:slideInUp 1.2s  ease-in;
+    -moz-animation:slideInUp 1.2s  ease-in;
+    animation:slideInUp 1.2s  ease-in;
 }
 .page-about.ng-leave      {
     -webkit-transform-origin: 50% 50%;
@@ -243,26 +243,12 @@ width: 100%;
     transform-origin: 50% 50%;
     animation: 0.1s both ease-in;
 }
-/*.page-about.ng-leave      {
-    -webkit-transform-origin: 50% 50%;
-	-webkit-animation: rotateOutNewspaper 0.5s both ease-in;
-	-moz-transform-origin: 50% 50%;
-	-moz-animation: rotateOutNewspaper 0.5s both ease-in;
-	transform-origin: 50% 50%;
-	animation: rotateOutNewspaper 0.5s both ease-in;
-}*/
 
-.page-home.ng-enter 		{
-    -webkit-animation:slideInRight 0.5s both ease-in;
-    -moz-animation:slideInRight 0.5s both ease-in;
-    animation:slideInRight 0.5s both ease-in;
+.page-home.ng-leave{
+    -webkit-animation:slideInUp1 1s  ease-in;
+    -moz-animation:slideInUp1 1s  ease-in;
+    animation:slideInUp1 1s  ease-in;
 }
-// Define the page leave animatoins here for the home page.
-   .page-home.ng-leave        {
-       -webkit-animation:slideInUp 0.5s both ease-in-out;
-       -moz-animation:slideInUp 0.5s both ease-in-out;
-       animation:slideInUp 0.5s both ease-in-out;
-   }
 
 #spinner {
     position: fixed;
@@ -288,6 +274,19 @@ width: 100%;
 @-webkit-keyframes slideInUp {
     from 	{ -webkit-transform:translateY(100%); }
     to 		{ -webkit-transform: translateY(0); }
+}
+
+@keyframes slideInUp1 {
+    from    { transform:translateY(0%); }
+    to      { transform: translateY(-100%); }
+}
+@-moz-keyframes slideInUp1 {
+    from    { -moz-transform:translateY(0%); }
+    to      { -moz-transform: translateY(-100%); }
+}
+@-webkit-keyframes slideInUp1 {
+    from    { -webkit-transform:translateY(0%); }
+    to      { -webkit-transform: translateY(-100%); }
 }
 
 /* slide in from the bottom */
