@@ -125,13 +125,13 @@ body{font-family: 'Open Sans', sans-serif !important;color:#303030;font-size:16p
 }
 
 @-webkit-keyframes fade {
-    50% {
+    0% {
         opacity: 0.02;
     }
 }
 
 @keyframes fade {
-    50% {
+    0% {
         opacity: 0.02;
     }
 }
@@ -245,9 +245,9 @@ width: 100%;
 }
 
 .page-home.ng-leave{
-    -webkit-animation:slideInUp1 1s  ease-in;
-    -moz-animation:slideInUp1 1s  ease-in;
-    animation:slideInUp1 1s  ease-in;
+    -webkit-animation:slideInUpHome 1s  ease-in;
+    -moz-animation:slideInUpHome 1s  ease-in;
+    animation:slideInUpHome 1s  ease-in;
 }
 
 #spinner {
@@ -276,15 +276,15 @@ width: 100%;
     to 		{ -webkit-transform: translateY(0); }
 }
 
-@keyframes slideInUp1 {
+@keyframes slideInUpHome {
     from    { transform:translateY(0%); }
     to      { transform: translateY(-100%); }
 }
-@-moz-keyframes slideInUp1 {
+@-moz-keyframes slideInUpHome {
     from    { -moz-transform:translateY(0%); }
     to      { -moz-transform: translateY(-100%); }
 }
-@-webkit-keyframes slideInUp1 {
+@-webkit-keyframes slideInUpHome {
     from    { -webkit-transform:translateY(0%); }
     to      { -webkit-transform: translateY(-100%); }
 }
