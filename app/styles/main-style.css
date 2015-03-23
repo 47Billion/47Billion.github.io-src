@@ -4,16 +4,16 @@
 /*@font-face {
 	font-family:'WeblySleekUISemilight';
 	src:url('../fonts/WeblySleekUISemilight/weblysleekuisl.eot');
-	src:url('../fonts/WeblySleekUISemilight/weblysleekuisl.eot?#iefix') format('embedded-opentype'), 
+	src:url('../fonts/WeblySleekUISemilight/weblysleekuisl.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/WeblySleekUISemilight/weblysleekuisl.woff') format('woff'),
-		url('../fonts/WeblySleekUISemilight/weblysleekuisl.ttf') format('truetype'), 
+		url('../fonts/WeblySleekUISemilight/weblysleekuisl.ttf') format('truetype'),
 		url('../fonts/WeblySleekUISemilight/weblysleekuisl.svg#WeblySleekUISemilight') format('svg');
 }
 @font-face {
 	font-family:'WeblySleekUISemibold';
 	src:url('../fonts/WeblySleekUISemibold/weblysleekuisb.eot');
 	src:url('../fonts/WeblySleekUISemibold/weblysleekuisb.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/WeblySleekUISemibold/weblysleekuisb.woff') format('woff'), 
+		url('../fonts/WeblySleekUISemibold/weblysleekuisb.woff') format('woff'),
 		url('../fonts/WeblySleekUISemibold/weblysleekuisb.ttf') format('truetype'),
 		url('../fonts/WeblySleekUISemibold/weblysleekuisb.svg#WeblySleekUISemibold') format('svg');
 }*/
@@ -86,6 +86,7 @@ body{font-family: 'Open Sans', sans-serif !important;color:#303030;font-size:16p
 .social-region li a .fa-linkedin-square:hover, .social-region li a .fa-linkedin-square:focus{color:#007bb6}
 .social-region li a .fa-google-plus-square:hover, .social-region li a .fa-google-plus-square:focus{color:#dd4b39}
 .social-region li a .fa-envelope:hover, .social-region li a .fa-envelope:focus{color:#f3793a}
+.contact-space {margin: 25px 0; border-bottom: 1px solid #cecece}
 .contact-region1{position:relative}
 .contact-region1 ul{margin-top:8px;padding-bottom:20px;border-bottom:solid 1px #cecece;float:left;width:100%;text-align:center}
 .contact-region1 li{float:left}
@@ -150,10 +151,12 @@ body{font-family: 'Open Sans', sans-serif !important;color:#303030;font-size:16p
 
 }
 @media (min-width:320px){
-    .bottom-half-circle, .bottom-half-circle:hover, .bottom-half-circle:focus{left:34%;border-radius:60px 60px 0 0;font-size:35px;height:60px;line-height:80px;width:120px;}
-    .social-region{float:right;margin-right: -10px}
+    .bottom-half-circle, .bottom-half-circle:hover, .bottom-half-circle:focus{left:37%;border-radius:50px 50px 0 0;font-size:24px;height:35px;line-height:47px;width:69px;}
+    .bottom-half-circle-link {width: 100%; height: 75px; display: block}
+    .navbar-brand img {width: 100px;height: 32px}
+    .social-region{float:right;margin-right: -10px; margin-top: 0px}
     .intro{display: block;padding-right: 0px}
-    .social-region li a {color: #808080;font-size: 24px;line-height: 34px;}
+    .social-region li a {color: #808080;font-size: 18px;line-height: 34px;}
     .parter-logo{border:solid 1px #cecece;width:100%;display:block;text-align:center;float:left;padding:20px 0;margin:0 0 15px 0}
     .mview-partner{ display:block;text-align:left;font-size:16px;line-height:21px}
     .tag-region{ text-align:center}
@@ -166,7 +169,8 @@ body{font-family: 'Open Sans', sans-serif !important;color:#303030;font-size:16p
 }
 @media (min-width:480px){
     .bottom-half-circle{left:38%}
-    .social-region{float:right}
+    .navbar-brand img {width: 140px;height: 47px}
+    .social-region{float:right; margin-top: 8px}
     .intro{display: block;padding-right: 0px}
     .social-region li a {color: #808080;font-size: 22px;line-height: 34px;}
     .contact-region1 img{width:320px}
