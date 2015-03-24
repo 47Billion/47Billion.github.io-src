@@ -151,8 +151,8 @@ body{font-family: 'Open Sans', sans-serif !important;color:#303030;font-size:16p
 
 }
 @media (min-width:320px){
-    .bottom-half-circle, .bottom-half-circle:hover, .bottom-half-circle:focus{left:37%;border-radius:50px 50px 0 0;font-size:24px;height:35px;line-height:47px;width:69px;}
-    .bottom-half-circle-link {width: 100%; height: 75px; display: block}
+    .bottom-half-circle, .bottom-half-circle:hover, .bottom-half-circle:focus{left:0%;border-radius:0;font-size:20px;height:20px;line-height:23px;width:100%;}
+    .bottom-half-circle-link {width: 100%; height: 60px; display: block}
     .navbar-brand img {width: 100px;height: 32px}
     .social-region{float:right;margin-right: -10px; margin-top: 0px}
     .intro{display: block;padding-right: 0px}
@@ -165,10 +165,10 @@ body{font-family: 'Open Sans', sans-serif !important;color:#303030;font-size:16p
     .contact-region1 ul li{ float:none;display:inline-block;font-size: 12px}
     /*.contact-region1 li + li + li + li .address-detailbox{left:-122px}*/
     .contact-region1 li .address-detailbox{width:100%; top:auto;bottom: 55px;height: 165px;padding: 20px 45px}
-    .cd-headline.slide .cd-words-wrapper{overflow:visible;vertical-align:top;width: 43px}
+    .cd-headline.slide .cd-words-wrapper{overflow:visible;vertical-align:top;width: 55px}
 }
 @media (min-width:480px){
-    .bottom-half-circle{left:38%}
+    .bottom-half-circle{left:0%}
     .navbar-brand img {width: 140px;height: 47px}
     .social-region{float:right; margin-top: 8px}
     .intro{display: block;padding-right: 0px}
@@ -179,7 +179,7 @@ body{font-family: 'Open Sans', sans-serif !important;color:#303030;font-size:16p
 }
 @media (min-width:480px) and (max-width: ){}
 @media (min-width:640px){
-    .bottom-half-circle{left:40%}
+    .bottom-half-circle{left:0%}
     .intro{display: block;padding-right: 0px}
     .social-region ul{float:right}
     .contact-region1 img{width:320px}
